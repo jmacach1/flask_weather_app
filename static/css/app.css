@@ -1,3 +1,47 @@
-h1 {
-  color: teal;
+:root {
+  --bg-url: url("https://www.wowpatterns.com/assets/files/resource_images/Summer-pattern1.jpg");
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: 500px;
+  background-image: var(--bg-url);
+  background-color: teal;
+  background-blend-mode: color-burn;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  padding: 1rem;
+}
+
+header > h1 {
+  color: white;
+  padding: 0 1rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+main > div {
+  opacity: .8;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+.locationDisplay {
+  background-color: skyblue;
+  color: black;
+}
+
+.weatherDisplay {
+  background-color: beige;
+  color: black;
 }
